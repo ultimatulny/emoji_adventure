@@ -1,4 +1,4 @@
-let cols = 50;
+let cols = 30;
 let rows = 30;
 let game = [];
 let playerPosition = [];
@@ -25,6 +25,7 @@ function renderField(rows, cols) {
 			field += block;
 			if(game[i][j] != 0) field += game[i][j];
 			field += '</div>';
+
 		}
 
 		field += '</div>';
